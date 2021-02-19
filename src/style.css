@@ -30,6 +30,7 @@ body {
 }
 .glow {
     font-size: 50px;
+    font-family: 'DotGothic16', sans-serif;
     color: #8EDC9D;
     text-align: center;
     -webkit-animation: glow 10s ease-in-out infinite alternate;
