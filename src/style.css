@@ -1,3 +1,4 @@
+/* Style found in stackoverflow, helps with straightening out the footer */
 html {
     position: relative;
     min-height: 100%;
@@ -14,7 +15,7 @@ a {
     color: #EF7126;
     font-family: 'Monserrat', sans-serif;
 }
-
+/* The margin and padding is to avoid the distance between the header and the upper part of your browser */
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+/* Style for the animated header in index */
 .glow {
     font-size: 50px;
     font-family: 'DotGothic16', sans-serif;
@@ -55,7 +56,7 @@ body {
     margin-left: 5px;
     color: white;
 }
-
+/* Basic settings for the html elements I used */
 h1 {
     margin-left: 5px;
     color: white;
@@ -80,7 +81,7 @@ h4 {
 
 p {
     margin-left: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .projectText {
@@ -112,7 +113,7 @@ p {
     padding-bottom: 5px;
 
 }
-
+/* Style for progress bars in index */
 .wrapper {
     width: 500px;
 }
@@ -133,7 +134,7 @@ p {
     border-radius: 20px;
     transition: width 500ms ease-in-out;
 }
-
+/* Style for collapsible in projects */
 .collapsible {
     background-color: #eee;
     background-color: rgba(0, 128, 128, 0.7);
@@ -169,26 +170,45 @@ p {
 
 }
 
-
-
-
 #content-wrap {
     padding-bottom: 2.5rem;
 }
-
+/* Style for the footer */
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
 }
-
+/* Buffer added to avoid overlap with collapsibles */
 #buffer{
     margin-bottom: 3rem;
 }
-
+/* Style for the main div in contact */
 #contact{
     color:white;
     background-color: rgba(33, 140, 141, 0.7);
     padding:3px;
+}
+
+/* Start card style rules */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:8px;
+    background-color: #F9E559;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+    padding: 8px 16px;
+}
+
+#sirohccoImages{
+    padding-top: 5px;
 }
